@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class paddleController : MonoBehaviour {
+public class paddleController2 : MonoBehaviour {
 
 
 	void Start () {
