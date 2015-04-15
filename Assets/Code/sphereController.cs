@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+//add a reference to UI text
+using UnityEngine.UI;
 using System.Collections;
 
 public class sphereController : MonoBehaviour {
@@ -6,6 +8,8 @@ public class sphereController : MonoBehaviour {
 	//11. create variable for hit counter
 	int hitcount = 0;
 
+	//15. add a reference to the output text overlaid on the screen
+	public Text outputText;
 
 	//10. create the collision function
 	void OnCollisionEnter2D(Collision2D ballhit)
@@ -17,6 +21,9 @@ public class sphereController : MonoBehaviour {
 			hitcount++;
 			//14. temporarily output the value of hitcount
 			Debug.Log (hitcount);
+
+			//16. set the value of the text
+			outputText.text = ""+hitcount;
 		}
 
 	}

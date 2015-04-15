@@ -1,13 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\sphereController.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\menuController.cs">
     <Files>
-      <File FileName="..\Game3\Lesson3\Assets\code\frontOfBarrelController.cs" Line="37" Column="1" />
-      <File FileName="..\Game3\Lesson3\Assets\code\turretController.cs" Line="1" Column="1" />
-      <File FileName="..\Game3\Lesson3\Assets\code\birdController.cs" Line="1" Column="1" />
-      <File FileName="..\Game3\Lesson3\Assets\code\cameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Code\paddleController.cs" Line="38" Column="60" />
-      <File FileName="Assets\Code\sphereController.cs" Line="37" Column="6" />
+      <File FileName="Assets\Code\menuController.cs" Line="15" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
